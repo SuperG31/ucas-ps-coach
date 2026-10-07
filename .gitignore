@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# editors
+.vscode/
+.idea/
+*.swp
+
+# secrets — the demo takes a user-pasted key at runtime; none belongs in the repo
+.env
+.env.*
+*.key
+
+# node
+node_modules/
+npm-debug.log*
+
+# local eval output (checked-in runs are the archived ones only)
+ps-coach/eval/results-local*.json
+ps-coach/eval/results-local*.md
+
+# tooling scratch
+.claude/
